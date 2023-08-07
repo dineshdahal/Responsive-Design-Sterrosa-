@@ -1,0 +1,15 @@
+@import url(https://db.onlinewebfonts.com/c/611de94a2f05d6e33f39a8e12cc2fe65?family=Safira+March+Personal+Use);
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bg-primary-main{
+    background:rgb(236,202,194);
+}
+
+.text-regular{
+    font-family: "Safira March Personal Use";
+}
