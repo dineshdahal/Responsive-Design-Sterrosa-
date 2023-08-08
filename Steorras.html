@@ -1,89 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steorras</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Steorras</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- Option 1: Include in HTML -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <section class="mb-3">
-    <!-- Top Bar -->
-    <div class="container-fluid bg-primary-main d-flex justify-content-between fs-4 fw-light pt-2 pb-1 text-regular">
-      <span>
-        Valentine's Day Sale-- Get <strong class="fw-bold">15%</strong> off on your purchase
-      </span>
-      <span> Timeless and Thoughtfully Crafted Jewelry </span>
-    </div>
-
-    <!-- Navbar -->
-    <div class="container-fluid d-flex justify-content-between p-4">
-      <div class="d-lg-flex d-none align-items-center col-4">
-        Candada
+  <body>
+    <section class="mb-3">
+      <!-- Top Bar -->
+      <div
+        class="container-fluid bg-primary-main d-flex justify-content-between fs-4 fw-light pt-2 pb-1 text-regular"
+      >
+        <span>
+          Valentine's Day Sale-- Get <strong class="fw-bold">15%</strong> off on
+          your purchase
+        </span>
+        <span class="d-sm-none d-lg-inline">
+          Timeless and Thoughtfully Crafted Jewelry
+        </span>
       </div>
-      <div class="d-none d-lg-flex col-4">
-        <img src="logoimg.png" class="brand-img" alt="Logo" width="275px" height="75px">
-      </div>
-      <div class="d-flex align-items-center col-lg-4 col-sm-12 justify-content-between">
-        <i class="bi bi-search mx-4 fs-3"></i>
-        <i class="bi bi-person mx-4 fs-3"></i>
-        <i class="bi bi-heart mx-4 fs-3"></i>
-        <i class="bi bi-bag mx-4 fs-3"></i>
-        <button class="navbar-toggler mx-3 d-lg-none" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-list fs-1"></i>
-        </button>
-      </div>
-    </div>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul
-            class="navbar-nav w-100 me-auto mb-2 mb-lg-0 justify-content-lg-around d-flex flex-lg-row flex-sm-column align-items-sm-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">CHAINS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NECKLACE & PENDANTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">EARRINGS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SALES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
+
+      <!-- Navbar -->
+      <div class="container-fluid d-flex justify-content-between p-4">
+        <div class="d-lg-flex d-none align-items-center col-4">Candada</div>
+        <div class="d-none d-md-flex m-3 col-4">
+          <img
+            src="logoimg.png"
+            class="brand-img"
+            alt="Logo"
+            width="275px"
+            height="75px"
+          />
+        </div>
+        <div
+          class="d-flex align-items-center col-lg-4 col-md-8 col-sm-12 justify-content-sm-between justify-content-lg-end"
+        >
+          <i class="bi bi-search mx-4 fs-3"></i>
+          <i class="bi bi-person mx-4 fs-3"></i>
+          <i class="bi bi-heart mx-4 fs-3"></i>
+          <i class="bi bi-bag mx-4 fs-3"></i>
+          <button
+            class="navbar-toggler mx-3 d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list fs-1"></i>
+          </button>
         </div>
       </div>
-    </nav>
-  </section>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul
+              class="navbar-nav w-100 me-auto mb-2 mb-lg-0 justify-content-lg-around d-flex flex-lg-row flex-sm-column align-items-sm-end"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >CHAINS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NECKLACE & PENDANTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">EARRINGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 
-  <section class="">
-    <div class="container-fluid row" style="height: 500px;">
-      <div class="col-lg-4 col-sm-6 bg-primary h-100 d-flex align-items-center justify-content-center">
-        <img src="logoimg.png" alt="" class="img-fluid">
+    <section class="my-3 p-0">
+      <div class="container-fluid row px-0" >
+        <div class="col-lg-8 col-sm-12 h-auto d-block px-0">
+          <img src="TopImage 2.png" alt="" class="img-fluid h-auto w-100" />
+        </div>
+        <div
+          class="col-lg-4 col-sm-12 bg-primary-main d-flex flex-column justify-content-center align-items-center"
+          style="min-height: 200px"
+        >
+          <p class="text-secondary fs-2 m-xl-5 my-3 text-center text-regular">
+            Timeless elegance crafted with care
+          </p>
+          <button
+            class="btn btn-light mb-2 mt-4 w-50 p-4 fs-4 text-secondary fw-bold"
+            style="letter-spacing: 5px"
+          >
+            SHOP NOW
+          </button>
+        </div>
       </div>
-      <div class="col-lg-4 col-sm-6 bg-light h-100"></div>
-      <div class="col-lg-4 col-sm-12 bg-danger h-100"></div>
-    </div>
-  </section>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-</body>
+    <section class="mt-3 p-2">
+      <span
+        class="position-absolute top-10 start-25 text-light p-1"
+        style="background: rgb(229, 150, 134)"
+        >Popular</span
+      >
+      <div class="container-fluid row" >
+        <div class="col-lg-3 col-sm-6 h-100">
+          <img src="Popular1.png" alt="..." class="img-fluid w-100 h-100" />
+        </div>
+        <div class="col-lg-3 col-sm-6 h-100">
+          <img src="Popular2.png" alt="..." class="img-fluid w-100 h-100" />
+        </div>
+        <div class="col-lg-3 col-sm-6 h-100">
+          <img src="Popular3.png" alt="..." class="img-fluid w-100 h-100" />
+        </div>
+        <div class="col-lg-3 col-sm-6 h-100">
+          <img src="Popular4.png" alt="..." class="img-fluid w-100 h-100" />
+        </div>
+      </div>
+    </section>
 
+<section class="mt-3 p-0">
+
+  <div class="container-fluid w-100 img-main"  style="max-height: 915px;">
+    <img src="Main.png" alt="" class="w-100 h-auto img-fluid">
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
