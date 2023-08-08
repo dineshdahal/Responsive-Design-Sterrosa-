@@ -1,16 +1,32 @@
 @import url(https://db.onlinewebfonts.com/c/611de94a2f05d6e33f39a8e12cc2fe65?family=Safira+March+Personal+Use);
 
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-
+@font-face {
+	font-family: "Safira March Personal Use";
+	src: url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.eot");
+	src: url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.svg#Safira March Personal Use")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
-.bg-primary-main{
-    background:rgb(236,202,194);
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
 }
 
-.text-regular{
-    font-family: "Safira March Personal Use";
+.bg-primary-main {
+	background: rgb(236, 202, 194);
 }
 
+.text-regular {
+	font-family: "Safira March Personal Use";
+}
