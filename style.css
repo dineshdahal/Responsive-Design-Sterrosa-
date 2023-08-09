@@ -1,16 +1,16 @@
-@import url(https://db.onlinewebfonts.com/c/611de94a2f05d6e33f39a8e12cc2fe65?family=Safira+March+Personal+Use);
-
 @font-face {
 	font-family: "Safira March Personal Use";
 	src: url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.eot");
-	src: url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.eot?#iefix") format("embedded-opentype"),
-		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff") format("woff"),
-		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff2") format("woff2"),
-		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.ttf") format("truetype"),
-		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.svg#Safira March Personal Use") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+	src: url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/611de94a2f05d6e33f39a8e12cc2fe65.svg#Safira March Personal Use")
+			format("svg");
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 	opacity: 0.85;
 }
 
-@media screen and  (max-width: 992px) {
+@media screen and (max-width: 992px) {
 	.main-img {
 		background-size: cover;
 	}
@@ -51,14 +51,17 @@ body {
 	}
 }
 
-.bg-footer-top{
-	background: #9C9B9B;;
+.bg-footer-top {
+	background: #9c9b9b;
 }
-.bg-footer-bottom{
+.bg-footer-bottom {
 	background: #767676;
 }
 
-.icon-color{
-	background:rgb(156,155,155);
-	
+.icon-color {
+	background: rgb(156, 155, 155);
+}
+
+.font-arima {
+	font-family: "Arima Madurai";
 }
