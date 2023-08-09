@@ -13,6 +13,10 @@
 			format("svg");
 }
 
+.text-main{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 0px;
@@ -48,8 +52,9 @@ body {
 
 @media screen and (min-width: 1201px) {
 	.main-img {
-		background-size: contain;
-		height:70vh;
+		background-size: cover;
+		height:90vh;
+		font-size: larger;
 	}
 }
 
@@ -67,3 +72,13 @@ body {
 .font-arima {
 	font-family: "Arima Madurai";
 }
+
+.color-second{
+	color:#4b4b4b
+}
+
+
+    input::placeholder {
+      color: rgb(244, 244, 244);
+    }
+ 
