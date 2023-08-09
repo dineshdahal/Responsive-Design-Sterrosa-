@@ -34,8 +34,9 @@ body {
 .main-img {
 	background-image: url(Main.png);
 	background-repeat: no-repeat;
-	height: 60vh;
-	resize: auto;
+	min-height: fit-content;
+	
+	
 	opacity: 0.85;
 }
 
@@ -48,6 +49,7 @@ body {
 @media screen and (min-width: 993px) {
 	.main-img {
 		background-size: contain;
+		height:60vh;
 	}
 }
 
