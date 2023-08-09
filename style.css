@@ -40,16 +40,16 @@ body {
 	opacity: 0.85;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 	.main-img {
 		background-size: cover;
 	}
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1201px) {
 	.main-img {
 		background-size: contain;
-		height:60vh;
+		height:70vh;
 	}
 }
 
