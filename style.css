@@ -81,4 +81,8 @@ body {
     input::placeholder {
       color: rgb(244, 244, 244);
     }
- 
+
+
+	.text-responsive {
+		font-size: calc(50% + 1vmin);
+	  }

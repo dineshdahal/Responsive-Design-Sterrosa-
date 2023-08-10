@@ -17,8 +17,8 @@
 <body>
   <section class="mb-lg-3">
     <!-- Top Bar -->
-    <div class="container-fluid bg-primary-main d-flex justify-content-between fs-4 fw-light pt-2 pb-1 text-regular mb-3" style="letter-spacing: 2px;">
-      <span>
+    <div class="container-fluid bg-primary-main d-flex justify-content-between fs-4 fw-light pt-2 pb-1 text-responsive text-regular mb-3" style="letter-spacing: 2px;">
+      <span class="text-responsive">
         Valentine's Day Sale -- Get <strong class="fw-bold">15%</strong> Off Our Paper Heart Pendant
       </span>
       <span class="d-none d-lg-inline">
@@ -40,24 +40,57 @@
       </div>
 
       <div class="col-4 d-lg-none justify-content-end d-flex align-items-end justify-content-end">
-        <button class="navbar-toggler mx-sm-4 d-lg-none" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-list display-2 "></i>
-      </button>
+       
+
+      <button class="navbar-toggler mx-sm-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="bi bi-list text-secondary text-responsive fs-1 "></i></button>
+
       </div>
 
       <div class="d-flex align-items-center col-lg-4 mt-4 m-0 justify-content-between justify-content-lg-end">
-        <i class="bi bi-search mx-sm-4 fs-3"></i>
-        <i class="bi bi-person mx-sm-4 fs-3"></i>
-        <i class="bi bi-heart mx-sm-4 fs-3"></i>
-        <i class="bi bi-bag mx-sm-4 fs-3"></i>
+      <a href="#">  <i class="bi bi-search text-secondary text-responsive mx-sm-4 fs-3"></i> </a>
+       <a href="#"> <i class="bi bi-person mx-sm-4 fs-3 text-responsive text-secondary"></i> </a> 
+       <a href="#"> <i class="bi bi-heart mx-sm-4 text-secondary text-responsive fs-3"></i> </a> 
+       <a href="#"> <i class="bi bi-bag mx-sm-4 text-secondary text-responsive fs-3"></i></a> 
        
       </div>
     </div>
 
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">STEORRAS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul
+            class="navbar-nav w-100 me-auto mb-2 mb-lg-0 justify-content-lg-around d-flex flex-lg-row flex-column align-items-start">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">CHAINS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NECKLACE & PENDANTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EARRINGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+
+
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <div class="collapse navbar-collapse" id="navbarText">
+        <div class="collapse navbar-collapse" >
           <ul
             class="navbar-nav w-100 me-auto mb-2 mb-lg-0 justify-content-lg-around d-flex flex-lg-row flex-column align-items-end">
             <li class="nav-item">
@@ -92,7 +125,7 @@
       </div>
       <div class="col-lg-4 col-12 bg-primary-main d-flex flex-column justify-content-center align-items-center "
         style="min-height: 200px">
-        <p class=" display-4 m-xl-5 my-3 text-center text-regular fw-normal" style="color:#4b4b4b;">
+        <p class=" fs-1 m-xl-5 my-3 text-center text-regular fw-normal text-responsive" style="color:#4b4b4b;">
           Timeless elegance crafted with care
         </p>
         <div class=" col-12 col-sm-8 col-md-6 col-lg-8  col-xl-8  col-xxl-6 mb-2 mt-4 ps-2">
@@ -131,9 +164,9 @@
       <div class="row h-100">
         <div class=" col-md-6 offset-md-7 offset-lg-7 h-100 d-flex flex-column justify-content-center">
           <div class="text-regular  my-lg-3 lh-lg  ">
-            <p class="font-arima display-5">Fine jewelry that you'll <br> treasure for a lifetime.</p>
-            <p class="text-main" > Thank you for choosing Steorras as your preferred online jewelry store. </p>
-            <p class="text-main "> We're dedicated to providing the best online jewelry shopping experience possible, from our
+            <p class="font-arima fs-1 text-responsive">Fine jewelry that you'll <br> treasure for a lifetime.</p>
+            <p class="text-main text-responsive" > Thank you for choosing Steorras as your preferred online jewelry store. </p>
+            <p class="text-main text-responsive "> We're dedicated to providing the best online jewelry shopping experience possible, from our
               user-friendly
               website to our outstanding customer service. If you have any questions or need assistance with your
               purchase,
@@ -182,10 +215,10 @@
   
         <div class="col-12 col-md-8 col-lg-6 col-xxl-12 d-flex flex-column justify-content-center align-items-center">
           
-          <p class="text-dark display-5 m-xxl-5 col-12 text-center font-arima">
+          <p class="text-dark fs-1 m-xxl-5 col-12 text-center font-arima text-responsive">
             Celebrate life's <br>  milestones with timeless <br> 14k gold pendants
           </p>
-          <p class="text-center mb-xxl-3 col-11 m-0 fw-light lh-sm font-arima lh-lg" style="letter-spacing: 2px; overflow: hidden;">
+          <p class="text-center mb-xxl-3 col-11 m-0 fw-light lh-sm font-arima lh-lg text-responsive" style="letter-spacing: 2px; overflow: hidden;">
             In today's market, it can be difficult to find high-quality jewelry without spending a fortune. At Steorras,
             we believe that quality fine jewelry should be accessible to everyone. That's why we offer competitive
             prices without compromising on quality or design. Our goal is to make online jewelry shopping an enjoyable
@@ -193,7 +226,7 @@
           </p>
           <div class="col-12 col-sm-6 align-self-xxl-center my-5 ps-2">
   
-            <button class="btn bg-primary-main py-4 px-5 fw-bold text-light  align-self-center w-100 "
+            <button class="btn bg-primary-main py-1 py-md-4 px-5 fw-bold text-light  align-self-center w-100 "
               style="letter-spacing: 1px; background-color: #767575">SHOP NOW</button>
           </div>
           
@@ -228,7 +261,7 @@
   <section class="mt-lg-5 mt-2 text-secondary">
 
     <div class="m-lg-3 m-1">
-      <p class="text-center display-5 text-dark font-arima fw-light"> Find The Perfect Gift</p>
+      <p class="text-center fs-1 text-dark font-arima fw-light text-responsive"> Find The Perfect Gift</p>
     </div>
 
 <div class="container-fluid d-flex justify-content-center">
@@ -279,7 +312,7 @@
       <div class="row">
         <div class="col-lg-3 col-12 col-sm-6 ">
           <p class="fs-4 text-regular">Quick Links</p>
-          <ul class="navbar-nav lh-lg">
+          <ul class="navbar-nav lh-lg text-responsive">
             <li class="nav-item my-1">
               <a href="#" class="nav-link">HOME</a>
             </li>
@@ -302,7 +335,7 @@
         <div class="col-lg-3 col-12 col-sm-6 my-3 my-sm-0">
 
           <p class="fs-4 text-regular">Quick Links</p>
-          <ul class="navbar-nav lh-lg">
+          <ul class="navbar-nav lh-lg text-responsive">
             <li class="nav-item my-1">
               <a href="#" class="nav-link">HOME</a>
             </li>
@@ -354,15 +387,15 @@
   <section class="bg-footer-bottom text-light py-lg-5 py-2" style="letter-spacing: 2px;">
 
     <div class="d-flex justify-content-center mb-lg-3 mb-1">
-      <i class="bi bi-facebook mx-1 fs-3 icon-color text-light py-1 px-2 rounded"></i>
-      <i class="bi bi-instagram mx-1 fs-3 icon-color text-light py-1 px-2 rounded"></i>
-      <i class="bi bi-twitter mx-1 fs-3 icon-color text-light py-1 px-2 rounded"></i>
+    <a href="#"> <i class="bi bi-facebook mx-1 fs-3 icon-color text-light py-2 px-2 rounded"></i> </a> 
+     <a href="#"> <i class="bi bi-instagram mx-1 fs-3 icon-color text-light py-2 px-2 rounded"></i> </a>
+     <a href="#"><i class="bi bi-twitter mx-1 fs-3 icon-color text-light py-2 px-2 rounded"></i>  </a> 
     </div>
 
     <div class="my-3">
-      <ul class="navbar-nav d-flex flex-column flex-md-row justify-content-center">
+      <ul class="navbar-nav d-flex flex-column flex-md-row justify-content-center text-responsive">
         <li class="nav-item text-center">
-          <a href="#" class="nav-link">PRIVACY POLICY <span class="d-none d-md-inline">| &nbsp;</span></a>
+          <a href="#" class="nav-link ">PRIVACY POLICY <span class="d-none d-md-inline">| &nbsp;</span></a>
         </li>
         <li class="nav-item text-center">
           <a href="#" class="nav-link">REFUND POLICY <span class="d-none d-md-inline">| &nbsp;</span></a>
@@ -383,7 +416,6 @@
     </div>
 
   </section>
-
 
 
 
